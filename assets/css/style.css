@@ -1,0 +1,367 @@
+.nav-bar-content {
+  width: 100%;
+  max-width: 100%;
+  /* width: 900px; */
+  height: 80px;
+  background-color: white;
+  position: relative;
+  box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.4);
+}
+
+.div-middle-body {
+  width: 90%;
+
+  height: 600px;
+  position: relative;
+  top: 30px;
+  margin-left: 5%;
+  margin-bottom: 500px;
+  /* position: relative; */
+  background-color: white;
+}
+
+.div-portfolio {
+  width: 40%;
+  /* max-width: 100px; */
+  float: left;
+  height: 200px;
+  background-color: lightblue;
+  margin-left: 50px;
+  margin-top: 35px;
+}
+
+.div-input-container input,
+p {
+  width: 90%;
+  height: 25px;
+  margin-left: 15px;
+  margin-top: 5px;
+}
+
+.div-h1-container {
+  left: 20px;
+}
+
+.div-input-container {
+  margin-left: 15px;
+  margin-top: 45px;
+}
+.div-header {
+  position: relative;
+  /* display: flex; */
+}
+
+.div-h1-container h1 {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  left: 50px;
+  top: 15px;
+}
+.nav-name-div {
+  position: absolute;
+  justify-content: flex-start;
+  background-color: lightseagreen;
+  max-width: 200px;
+  max-height: 80px;
+  width: 200px;
+  height: 80px;
+  /* position: absolute; */
+  z-index: 1000;
+  top: 0;
+  left: 20px;
+  right: 0;
+}
+body {
+  background-color: lightblue;
+}
+
+.nav-ul-links {
+  position: absolute;
+  right: 40px;
+  bottom: 35px;
+}
+
+.nav-ul-links a {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 10px;
+  color: gray;
+}
+
+.div-input-container textarea {
+  width: 90%;
+  height: 200px;
+  margin-left: 15px;
+}
+
+.div-input-container button {
+  width: 150px;
+  height: 50px;
+  margin-top: 25px;
+  margin-left: 15px;
+  font-size: 20px;
+  background-color: lightseagreen;
+}
+
+.div-img-p-container {
+  margin-top: 40px;
+  /* margin-left: 9%; */
+}
+
+.div-paragraph {
+  text-align: left;
+  margin-left: 2%;
+  float: left;
+}
+.div-paragraph p {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.div-img {
+  margin-left: 5%;
+  width: 40%;
+  float: left;
+
+  height: 250px;
+  background: lightblue;
+}
+
+@media only screen and (max-width: 980px) {
+  .nav-bar-content {
+    width: 100%;
+    max-width: 100%;
+    /* width: 900px; */
+    height: 80px;
+    background-color: white;
+    position: relative;
+    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.4);
+  }
+
+  .div-middle-body {
+    width: 90%;
+
+    height: 600px;
+    position: relative;
+    top: 30px;
+    margin-left: 5%;
+    margin-bottom: 500px;
+    /* position: relative; */
+    background-color: white;
+  }
+
+  .div-portfolio {
+    width: 40%;
+    /* max-width: 100px; */
+    float: left;
+    height: 200px;
+    background-color: lightblue;
+    margin-left: 50px;
+    margin-top: 35px;
+  }
+
+  .div-input-container input,
+  p {
+    width: 90%;
+    height: 25px;
+    margin-left: 15px;
+    margin-top: 5px;
+  }
+
+  .div-h1-container {
+    left: 20px;
+  }
+
+  .div-input-container {
+    margin-left: 15px;
+    margin-top: 45px;
+  }
+  .div-header {
+    position: relative;
+    /* display: flex; */
+  }
+
+  .div-h1-container h1 {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 50px;
+    top: 15px;
+  }
+  .nav-name-div {
+    position: absolute;
+    justify-content: flex-start;
+    background-color: lightseagreen;
+    max-width: 200px;
+    max-height: 80px;
+    width: 200px;
+    height: 80px;
+    /* position: absolute; */
+    z-index: 1000;
+    top: 0;
+    left: 20px;
+    right: 0;
+  }
+  body {
+    background-color: lightblue;
+  }
+
+  .nav-ul-links {
+    position: absolute;
+    right: 40px;
+    bottom: 35px;
+  }
+
+  .nav-ul-links a {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    color: gray;
+  }
+
+  .div-input-container textarea {
+    width: 90%;
+    height: 200px;
+    margin-left: 15px;
+  }
+
+  .div-input-container button {
+    width: 150px;
+    height: 50px;
+    margin-top: 25px;
+    margin-left: 15px;
+    font-size: 20px;
+    background-color: lightseagreen;
+  }
+
+  .div-img-p-container {
+    margin-top: 40px;
+    /* margin-left: 9%; */
+  }
+
+  .div-paragraph {
+    text-align: left;
+    margin-left: 2%;
+    float: left;
+  }
+  .div-paragraph p {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .div-img {
+    margin-left: 5%;
+    width: 40%;
+    float: left;
+
+    height: 250px;
+    background: lightblue;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .div-header {
+  }
+  .nav-bar-content {
+  }
+  .nav-name-div {
+  }
+  .nav-ul-links {
+  }
+  body {
+    background-color: lightblue;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .div-header {
+    max-width: 640px;
+    width: 100%;
+  }
+  .nav-bar-content {
+    position: relative;
+    max-width: 640px;
+    width: 100%;
+  }
+  .nav-name-div {
+    position: relative;
+    left: 0;
+    max-width: 640px;
+    width: 100%;
+  }
+  .nav-ul-links {
+    left: 25%;
+
+    color: white;
+  }
+  body {
+    background-color: lightblue;
+  }
+  h1 {
+    left: 37%;
+  }
+  .div-middle-body {
+    height: 550px;
+  }
+  .div-input-container p {
+    margin-left: 15px;
+  }
+  .div-input-container {
+    margin-top: 45px;
+  }
+
+  .div-h1-container h1 {
+    left: 20px;
+  }
+  .div-input-container input,
+  p {
+    width: 90%;
+    height: 25px;
+    margin-left: 15px;
+    margin-top: 5px;
+  }
+
+  .div-input-container textarea {
+    width: 90%;
+    height: 200px;
+    margin-left: 15px;
+  }
+  .div-portfolio {
+    width: 80%;
+    max-width: 80%;
+    height: 200px;
+    float: none;
+    background-color: lightblue;
+    margin-left: 7.5%;
+    margin-top: 25px;
+  }
+
+  .div-input-container button {
+    width: 150px;
+    height: 50px;
+    margin-top: 25px;
+    margin-left: 15px;
+    font-size: 20px;
+    background-color: lightseagreen;
+  }
+
+  .div-img-p-container {
+    margin-top: 40px;
+    /* margin-left: 9%; */
+  }
+
+  .div-paragraph {
+    text-align: left;
+    margin-left: 2%;
+  }
+  .div-paragraph p {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .div-img {
+    margin-left: 5%;
+    width: 90%;
+
+    height: 250px;
+    background: lightblue;
+  }
+}
